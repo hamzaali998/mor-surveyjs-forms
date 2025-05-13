@@ -1,0 +1,14 @@
+{
+  "title": "Albato Test Form",
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        { "type": "text", "name": "name", "title": "Full Name", "isRequired": true },
+        { "type": "text", "name": "email", "title": "Email Address", "inputType": "email", "isRequired": true },
+        { "type": "text", "name": "phone", "title": "Phone Number", "inputType": "tel", "isRequired": true },
+        { "type": "text", "name": "organization", "title": "Organization", "isRequired": true }
+      ]
+    }
+  ]
+}
