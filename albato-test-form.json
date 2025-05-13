@@ -8,9 +8,9 @@
         { "type": "text", "name": "email", "title": "Email Address", "inputType": "email", "isRequired": true },
         { "type": "text", "name": "phone", "title": "Phone Number", "inputType": "tel", "isRequired": true },
         { "type": "text", "name": "organization", "title": "Organization", "isRequired": true },
-        { type: "dropdown", name: "label", title: "Lead Type", choices: ["Borrower", "MTG Broker", "Investor", "RE Agent"] },
-        { type: "text", name: "deal_size", title: "Estimated Deal Size ($)", inputType: "number" },
-        { type: "comment", name: "note", title: "Additional Notes" }
+        { "type": "dropdown", "name": "label", "title": "Lead Type", "choices": ["Borrower", "MTG Broker", "Investor", "RE Agent"] },
+        { "type": "text", "name": "deal_size", "title": "Estimated Deal Size ($)", "inputType": "number" },
+        { "type": "comment", "name": "note", "title": "Additional Notes" }
 
       ]
     }
